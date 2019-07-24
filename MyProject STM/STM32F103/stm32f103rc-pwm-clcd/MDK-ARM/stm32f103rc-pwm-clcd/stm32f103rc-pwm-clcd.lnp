@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"stm32f103rc-pwm-clcd\startup_stm32f103xe.o"
+"stm32f103rc-pwm-clcd\main.o"
+"stm32f103rc-pwm-clcd\stm32f1xx_it.o"
+"stm32f103rc-pwm-clcd\stm32f1xx_hal_msp.o"
+"stm32f103rc-pwm-clcd\stm32f1xx_hal_timebase_tim.o"
+"stm32f103rc-pwm-clcd\stm_hal_clcd.o"
+"stm32f103rc-pwm-clcd\stm32f1xx_hal_gpio_ex.o"
+"stm32f103rc-pwm-clcd\stm32f1xx_hal_i2c.o"
+"stm32f103rc-pwm-clcd\stm32f1xx_hal_rtc.o"
+"stm32f103rc-pwm-clcd\stm32f1xx_hal_rtc_ex.o"
+"stm32f103rc-pwm-clcd\stm32f1xx_hal_tim.o"
+"stm32f103rc-pwm-clcd\stm32f1xx_hal_tim_ex.o"
+"stm32f103rc-pwm-clcd\stm32f1xx_hal.o"
+"stm32f103rc-pwm-clcd\stm32f1xx_hal_rcc.o"
+"stm32f103rc-pwm-clcd\stm32f1xx_hal_rcc_ex.o"
+"stm32f103rc-pwm-clcd\stm32f1xx_hal_gpio.o"
+"stm32f103rc-pwm-clcd\stm32f1xx_hal_dma.o"
+"stm32f103rc-pwm-clcd\stm32f1xx_hal_cortex.o"
+"stm32f103rc-pwm-clcd\stm32f1xx_hal_pwr.o"
+"stm32f103rc-pwm-clcd\stm32f1xx_hal_flash.o"
+"stm32f103rc-pwm-clcd\stm32f1xx_hal_flash_ex.o"
+"stm32f103rc-pwm-clcd\stm32f1xx_hal_exti.o"
+"stm32f103rc-pwm-clcd\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "stm32f103rc-pwm-clcd\stm32f103rc-pwm-clcd.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "stm32f103rc-pwm-clcd.map" -o stm32f103rc-pwm-clcd\stm32f103rc-pwm-clcd.axf
