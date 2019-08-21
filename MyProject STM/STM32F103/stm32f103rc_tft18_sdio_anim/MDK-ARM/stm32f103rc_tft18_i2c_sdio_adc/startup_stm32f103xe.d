@@ -1,0 +1,1 @@
+stm32f103rc_tft18_i2c_sdio_adc\startup_stm32f103xe.o: startup_stm32f103xe.s
